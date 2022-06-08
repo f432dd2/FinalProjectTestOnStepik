@@ -8,3 +8,6 @@ class LoginPageLocators():
     LOGIN_URL = (By.CSS_SELECTOR, "[href=\"/ru/accounts/login/\"]")
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
+
+class AddToBasket():
+    ADD_TO_BASKET = (By.CSS_SELECTOR, "[class\"btn btn-lg btn-primary btn-add-to-basket\"]")
